@@ -10,7 +10,7 @@ np.set_printoptions(precision=3, suppress=True)
 
 
 # input data
-finPATH = "interior-Point methods/src/fin/lp01.csv"   # relative path (check os.getcwd())
+finPATH = "./src/fin/lp01.csv"   # relative path (check os.getcwd())
 coef = np.genfromtxt(finPATH, delimiter=",")
 
 A = coef[1:, :-1]   # check if A is full-rank
